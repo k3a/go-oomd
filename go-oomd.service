@@ -1,0 +1,8 @@
+[Unit]
+Description=Go OOM user-space daemon
+
+[Service]
+ExecStart=/usr/local/bin/go-oomd
+
+[Install]
+WantedBy=multi-user.target
